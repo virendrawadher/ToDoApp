@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Merriweather+Sans&display=swap");
+
+:root {
+  --primary-color: #845ec2;
+}
+
+.App {
+  font-family: "Merriweather Sans", sans-serif;
+  text-align: center;
+  color: "red";
+}
+
+.Heading {
+  font-family: "Dancing Script", cursive;
+  font-size: 3rem;
+  color: var(--primary-color);
+}
+
+.td-container {
+  max-width: 80%;
+  height: 10vh;
+  margin: auto;
+}
+
+.td-input {
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  margin: auto;
+  border: 2.5px solid var(--primary-color);
+}
+
+.td-input:focus {
+  outline: none;
+}
+
+.td-btn {
+  cursor: pointer;
+  display: flex;
+  padding: 0.5rem 2rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  background-color: var(--primary-color);
+  margin: 1rem auto auto auto;
+}
+
+.td-btn:focus {
+  outline: none;
+}
+
+.td-table {
+  margin: 3rem auto;
+  padding: 1rem;
+}
+
+.td-tbody {
+  border: 1px solid black;
+}
+
+.td-tdata {
+  color: var(--primary-color);
+}
+
+.td-checkbox {
+  width: 1rem;
+  height: 1rem;
+}
+
+.td-tdata-data {
+  text-align: left;
+}
+
+.td-tdata-span {
+  font-size: 1.2rem;
+}
